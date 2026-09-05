@@ -1,0 +1,44 @@
+body{
+background:#f4f6f9;
+transition:0.3s;
+font-family:Segoe UI;
+}
+
+body.dark{
+background:#0f172a;
+color:white;
+}
+
+.sidebar{
+background:#1e293b;
+min-height:100vh;
+padding:10px;
+}
+
+.page{ padding:20px; }
+
+.card{
+margin:10px;
+padding:10px;
+border-radius:10px;
+background:white;
+}
+
+body.dark .card{
+background:#1e293b;
+color:white;
+}
+
+table{
+background:white;
+}
+
+body.dark table{
+background:#1e293b;
+color:white;
+}
+
+canvas{
+background:white;
+padding:10px;
+}
